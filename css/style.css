@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
 /* main div wrapper */
 .container {
   max-width: 960px;
@@ -257,10 +262,6 @@
   border-radius: 50%;
 }
 
-body {
-  margin: 0;
-  font-family: Roboto;
-}
 html {
   scroll-behavior: smooth;
 }
