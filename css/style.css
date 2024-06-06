@@ -1,19 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Roboto;
 }
 
-/* main div wrapper */
+/* main container */
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
 
+/* main div wrapper */
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
 }
 .wrapper > * {
   padding: 0px;
@@ -23,8 +26,10 @@ body {
 /* header  */
 .header {
   background-color: #4e4e4e;
+  width: 100%;
 }
 .header-menu {
+  height: 50px;
   background-color: #4e4e4e;
   color: white;
   font-size: 18px;
@@ -32,7 +37,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
 }
 
 /* footer */
@@ -84,17 +88,14 @@ body {
   background-image: url("../img/background1920x1080.jpg");
   background-size: cover;
   background-position: center;
-  color: white;
-  text-align: left;
-  border: none;
 }
 /* shadow overlay in first section */
 .fs-overlay {
-  position: absolute;
   top: 50;
   left: 0;
   width: 100%;
   height: calc(100% - 50px);
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
@@ -107,6 +108,9 @@ body {
   height: 215px;
   width: 577px;
   margin-right: 100vw;
+  color: white;
+  text-align: left;
+  border: none;
 }
 /* main description */
 .descr-main {
@@ -242,7 +246,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid black;
@@ -252,10 +255,8 @@ body {
 .grid-item:hover {
   transform: scale(1.05);
 }
-.grid-item div {
-  display: block;
-}
 
+/* container for new offers */
 .service-title-container {
   display: flex;
   flex-direction: column;
@@ -271,8 +272,4 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-}
-
-html {
-  scroll-behavior: smooth;
 }
