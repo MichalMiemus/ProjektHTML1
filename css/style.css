@@ -241,7 +241,7 @@ body {
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
-  flex-direction: column; /* Dodane */
+  flex-direction: column;
   align-items: center;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
