@@ -263,6 +263,10 @@ footer {
   align-items: center;
 }
 
+.service-title-new {
+  font-size: 18px;
+}
+
 /* new item circle in top-left corner */
 .grid-item .corner-circle {
   position: absolute;
